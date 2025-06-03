@@ -1,0 +1,146 @@
+[
+  {
+    "key": "pot-helm",
+    "name": "Pot Helm",
+    "iconURL": "/src/assets/icons/armour/bronze-set/Chainscaly_Hat_Icon.webp",
+    "designURL": null,
+    "description": "A poor knight's light helm.",
+    "obtained": [
+      "Diagram Unlocked: Level 45",
+      "Exiles loot"
+    ],
+    "type": "armour",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "fullSetEffect": "N/A",
+    "elementType": "N/A",
+    "elementValue": "N/A",
+    "durability": 125,
+    "tier": 4,
+    "piece": "helm",
+    "set": "Bronze Set",
+    "runSpeed": "N/A",
+    "armour": 70,
+    "crafting": {
+      "Thick Cloth": 10,
+      "Cloth": 12,
+      "Bronze Ingot": 3
+    }
+  },
+  {
+    "key": "bronze-hauberk",
+    "name": "Bronze Hauberk",
+    "iconURL": "/src/assets/icons/armour/bronze-set/Chainscaly_Shirt_Icon.webp",
+    "designURL": null,
+    "description": "A hauberk reinforced with bronze plates.",
+    "obtained": [
+      "Diagram Unlocked: Level 50",
+      "Exiles loot"
+    ],
+    "type": "armour",
+    "rarity": "normal",
+    "itemEffect": "1 quick slot",
+    "fullSetEffect": "N/A",
+    "elementType": "N/A",
+    "elementValue": "N/A",
+    "durability": 125,
+    "tier": 4,
+    "piece": "chest",
+    "set": "Bronze Set",
+    "runSpeed": "N/A",
+    "armour": 130,
+    "crafting": {
+      "Thick Cloth": 14,
+      "Cloth": 16,
+      "Bronze Ingot": 4,
+      "Copper Ingot": 7
+    }
+  },
+  {
+    "key": "plated-chainmail-gloves",
+    "name": "Plated Chainmail Gloves",
+    "iconURL": "/src/assets/icons/armour/bronze-set/Chainscaly_Gloves_Icon.webp",
+    "designURL": null,
+    "description": "Chainmail gloves reinforced with plates.",
+    "obtained": [
+      "Diagram Unlocked: Level 50",
+      "Exiles loot"
+    ],
+    "type": "armour",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "fullSetEffect": "N/A",
+    "elementType": "N/A",
+    "elementValue": "N/A",
+    "durability": 125,
+    "tier": 4,
+    "piece": "gauntlets",
+    "set": "Bronze Set",
+    "runSpeed": "N/A",
+    "armour": 50,
+    "crafting": {
+      "Thick Cloth": 4,
+      "Leather": 6,
+      "Bronze Ingot": 2,
+      "Copper Ingot": 4
+    }
+  },
+  {
+    "key": "bronze-chausses",
+    "name": "Bronze Chausses",
+    "iconURL": "/src/assets/icons/armour/bronze-set/Chainscaly_Pants_Icon.webp",
+    "designURL": null,
+    "description": "Chainmail trousers reinforced with bronze plates.",
+    "obtained": [
+      "Diagram Unlocked: Level 50",
+      "Exiles loot"
+    ],
+    "type": "armour",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "fullSetEffect": "N/A",
+    "elementType": "N/A",
+    "elementValue": "N/A",
+    "durability": 125,
+    "tier": 4,
+    "piece": "trousers",
+    "set": "Bronze Set",
+    "runSpeed": "N/A",
+    "armour": 120,
+    "crafting": {
+      "Thick Cloth": 14,
+      "Leather": 16,
+      "Bronze Ingot": 3,
+      "Copper Ingot": 7
+    }
+  },
+  {
+    "key": "riveted-boots",
+    "name": "Riveted Boots",
+    "iconURL": "/src/assets/icons/armour/bronze-set/Chainscaly_Boots_Icon.webp",
+    "designURL": null,
+    "description": "Comfortable boots with metal plates.",
+    "obtained": [
+      "Diagram Unlocked: Level 50",
+      "Exiles loot"
+    ],
+    "type": "armour",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "fullSetEffect": "N/A",
+    "elementType": "N/A",
+    "elementValue": "N/A",
+    "durability": 125,
+    "tier": 4,
+    "piece": "boots",
+    "set": "Bronze Set",
+    "runSpeed": 10,
+    "armour": 30,
+    "crafting": {
+      "Thick Cloth": 6,
+      "Leather": 5,
+      "Bronze Ingot": 2,
+      "Copper Ingot": 5
+    }
+  }
+]

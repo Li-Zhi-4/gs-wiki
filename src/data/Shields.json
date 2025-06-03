@@ -1,0 +1,333 @@
+[
+  {
+    "key": "woven-shield",
+    "name": "Woven Shield",
+    "iconURL": "/src/assets/icons/shields/Woven_Shield_Icon.webp",
+    "designURL": null,
+    "description": "A simple shield for those still mastering the basics of melee combat.",
+    "use": "Activating this reduces the physical damage of your enemy’s next strike by 3.",
+    "obtained": [
+      "Diagram Unlocked: Level 5"
+    ],
+    "type": "shield",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 200,
+    "blockCost": 2,
+    "recharge": 75,
+    "armour": 6,
+    "crafting": {
+      "Pine Log": 3,
+      "Flax Fiber": 2,
+      "Rope": 1
+    }
+  },
+  {
+    "key": "leather-shield",
+    "name": "Leather Shield",
+    "iconURL": "/src/assets/icons/shields/Leather_Shield_Icon.webp",
+    "designURL": null,
+    "description": "A shield made from rawhide. Only good against badly-sharpened swords.",
+    "use": "Activating this reduces the physical damage of your enemy’s next strike by 6.",
+    "obtained": [
+      "Diagram Unlocked: Level 23"
+    ],
+    "type": "shield",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 200,
+    "blockCost": 2,
+    "recharge": 150,
+    "armour": 17,
+    "crafting": {
+      "Pine Log": 5,
+      "Copper Shards": 1,
+      "Leather": 3,
+      "Rope": 3
+    }
+  },
+  {
+    "key": "composite-shield",
+    "name": "Composite Shield",
+    "iconURL": "/src/assets/icons/shields/Composite_Shield_Icon.webp",
+    "designURL": null,
+    "description": "A shield of planks reinforced with copper, straps, and the wearer's enthusiasm.",
+    "use": "Activating this reduces the physical damage of your enemy’s next strike by 11.",
+    "obtained": [
+      "Diagram Unlocked: Level 35"
+    ],
+    "type": "shield",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 200,
+    "blockCost": 3,
+    "recharge": 200,
+    "armour": 22,
+    "crafting": {
+      "Pine Plank": 5,
+      "Copper Ingot": 2,
+      "Leather": 3,
+      "Rope": 3,
+      "Cords": 6
+    }
+  },
+  {
+    "key": "light-shield",
+    "name": "Light Shield",
+    "iconURL": "/src/assets/icons/shields/Light_Shield_Icon.webp",
+    "designURL": "/src/assets/icons/shields/Light_Shield_Design.webp",
+    "description": "Simple round shield that will withstand a heavy sword's strike.",
+    "use": "Activating this reduces the physical damage of your enemy’s next strike by 15.",
+    "obtained": [
+      "Diagram Unlocked: Level 40"
+    ],
+    "type": "shield",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 200,
+    "blockCost": 3,
+    "recharge": 250,
+    "armour": 27,
+    "crafting": {
+      "Pine Plank": 7,
+      "Bronze Ingot": 2,
+      "Bronze Nails": 2,
+      "Leather": 6,
+      "Cords": 5
+    }
+  },
+  {
+    "key": "iron-shod-shield",
+    "name": "Iron-shod Shield",
+    "iconURL": "/src/assets/icons/shields/Heavy_Shield_Icon.webp",
+    "designURL": "/src/assets/icons/shields/Heavy_Shield_Design.webp",
+    "description": "This iron reinforced wooden shield provides confidence in battle.",
+    "use": "Activating this reduces the physical damage of your enemy’s 2 next strike by 25.",
+    "obtained": [
+      "Diagram Unlocked: Design can be obtained from Forsaken Dungeon"
+    ],
+    "type": "shield",
+    "rarity": "normal",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 5,
+    "recharge": 400,
+    "armour": 50,
+    "crafting": {
+      "Birch Plank": 6,
+      "Iron Ingot": 8,
+      "Bronze Nails": 5,
+      "Leather": 12,
+      "Cords": 8
+    }
+  },
+  {
+    "key": "black-iron-shod-shield",
+    "name": "Black Iron-shod Shield",
+    "iconURL": "/src/assets/icons/shields/Black_Shield_Icon.webp",
+    "designURL": null,
+    "description": "This shield is notably more durable than its common variant.",
+    "use": "Activating this reduces the physical damage of your enemy’s 2 next strike by 25.",
+    "obtained": [
+      "Crazy Alchemist's chest"
+    ],
+    "type": "shield",
+    "rarity": "rare",
+    "itemEffect": "Increased durability.",
+    "combatMastery": "Shields",
+    "durability": 334,
+    "blockCost": 5,
+    "recharge": 400,
+    "armour": 50,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "buckler",
+    "name": "Buckler",
+    "iconURL": "/src/assets/icons/shields/Buckler_Shield_Icon.webp",
+    "designURL": "/src/assets/icons/shields/Buckler_Shield_Design.webp",
+    "description": "Perfect for you if size doesn't matter.",
+    "use": "Activating this reduces the physical damage from all attacks by 30 for 1 sec.",
+    "obtained": [
+      "Diagram Unlocked: Design can be obtained from Aissa"
+    ],
+    "type": "shield",
+    "rarity": "rare",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 5,
+    "recharge": 400,
+    "armour": 70,
+    "crafting": {
+      "Birch Plank": 6,
+      "Iron Ingot": 10,
+      "Bronze Nails": 8,
+      "Wire": 8,
+      "Cords": 12
+    }
+  },
+  {
+    "key": "stunning-shield",
+    "name": "Stunning Shield",
+    "iconURL": "/src/assets/icons/shields/Stun_Shield_Icon.webp",
+    "designURL": null,
+    "description": "This shield's unique alloy will make enemies regret attacking you.",
+    "use": "Activating this reduces the physical damage from all attacks by 40 for 2 sec.",
+    "obtained": [
+      "Chests in Heroic Level 2-3 Dungeons",
+      "Wagenburg"
+    ],
+    "type": "shield",
+    "rarity": "unique",
+    "itemEffect": "Stuns attackers when activated.",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 7.5,
+    "recharge": 500,
+    "armour": 100,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "templar-shield",
+    "name": "Templar Shield",
+    "iconURL": "/src/assets/icons/shields/Templar_Shield_Icon.webp",
+    "designURL": null,
+    "description": "This shield's unique alloy will make enemies regret attacking you.",
+    "use": "Activating this reduces the physical damage from all attacks by 40 for 2 sec.",
+    "obtained": [
+      "Level rewards in Cunning Scrooge's Card Game"
+    ],
+    "type": "shield",
+    "rarity": "unique",
+    "itemEffect": "Stuns attackers when activated.",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 7.5,
+    "recharge": 500,
+    "armour": 115,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "damned-champions-shield",
+    "name": "Damned Champion's Shield",
+    "iconURL": "/src/assets/icons/shields/Poison_Shield_Icon.webp",
+    "designURL": null,
+    "description": "If you unleash its power, it will help you poison attackers.",
+    "use": "Activating this reduces the physical damage from all attacks by 40 for 3 sec.",
+    "obtained": [
+      "Traitor's Catacombs"
+    ],
+    "type": "shield",
+    "rarity": "unique",
+    "itemEffect": "When activated, the shield poisons attackers.",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 7.5,
+    "recharge": 500,
+    "armour": 150,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "gladiator-shield",
+    "name": "Gladiator Shield",
+    "iconURL": "/src/assets/icons/shields/Gladiator_Shield_Icon.webp",
+    "designURL": null,
+    "description": "Helps withstand even the strongest of enemy blows.",
+    "use": "Activating this reduces the physical damage from all attacks by 50 for 1 sec.",
+    "obtained": [
+      "Dungeon of the Torturers"
+    ],
+    "type": "shield",
+    "rarity": "unique",
+    "itemEffect": "N/A",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 5,
+    "recharge": 400,
+    "armour": 150,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "ice-shield",
+    "name": "Ice Shield",
+    "iconURL": "/src/assets/icons/shields/Ice_Shield_Icon.webp",
+    "designURL": null,
+    "description": "Easily stops enemies, in every meaning of the word...",
+    "use": "Activating this reduces the physical damage from all attacks by 50 for 2 sec.",
+    "obtained": [
+      "Wagenburg"
+    ],
+    "type": "shield",
+    "rarity": "unique",
+    "itemEffect": "When activated, the shield can freeze attackers.",
+    "combatMastery": "Shields",
+    "durability": 250,
+    "blockCost": 5,
+    "recharge": 500,
+    "armour": 150,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "fiery-retribution-shield",
+    "name": "Fiery Retribution Shield",
+    "iconURL": "/src/assets/icons/shields/Fiery_Retribution_Shield_Icon.webp",
+    "designURL": null,
+    "description": "According to legend, the flames will not touch those who are pure of heart.",
+    "use": "Activating this reduces the physical damage of your enemy’s next strike by 50.",
+    "obtained": [
+      "Scarlet Hunt rewards",
+      "Ancient Sepulchre chest"
+    ],
+    "type": "shield",
+    "rarity": "legendary",
+    "itemEffect": "When blocking, deals 100 fire damage to all nearby enemies.\nScares the Night Guest away.",
+    "combatMastery": "Shields",
+    "durability": 143,
+    "blockCost": 15,
+    "recharge": 800,
+    "armour": 150,
+    "crafting": {
+      "Not craftable": null
+    }
+  },
+  {
+    "key": "emperors-shield",
+    "name": "Emperor's Shield",
+    "iconURL": "/src/assets/icons/shields/Emperors_Shield_Icon.webp",
+    "designURL": null,
+    "description": "-",
+    "use": "Activating this reduces the physical damage from all attacks by 150 for 3 sec.",
+    "obtained": [
+      "-"
+    ],
+    "type": "shield",
+    "rarity": "legendary",
+    "itemEffect": "When blocking, the shield slows attack speed and movement for 2 seconds.",
+    "combatMastery": "Shields",
+    "durability": 325,
+    "blockCost": 0,
+    "recharge": 500,
+    "armour": 200,
+    "crafting": {
+      "Not craftable": null
+    }
+  }
+]
