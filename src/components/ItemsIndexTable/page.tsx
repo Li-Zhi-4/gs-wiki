@@ -4,15 +4,19 @@ import { DataTable } from "./data-table"
 import shieldJson from '@/data/Shields.json'
 import armourJson from '@/data/BronzeSet.json'
 
+/**
+ * File for rendering table with data.
+ */
+
 const DATA: Item[] = [
   ...shieldJson as Shield[],
   ...armourJson as Armour[],
 ]
 
-export default function DemoPage() {
+export default function ItemsIndexTable() {
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="w-full">
       <DataTable columns={columns} data={DATA} />
     </div>
   )

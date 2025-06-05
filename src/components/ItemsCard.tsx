@@ -23,7 +23,7 @@ interface ItemsCardProps {
 export function ItemsCard({ title, description, data }: ItemsCardProps) {
 
     return (
-        <Card className="w-3xs">
+        <Card className="w-full">
             <CardHeader>
                 <CardTitle>{title}</CardTitle>
                 <CardDescription>{description}</CardDescription>

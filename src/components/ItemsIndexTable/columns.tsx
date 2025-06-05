@@ -9,6 +9,10 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
+/**
+ * File for defining the data in the table and the column headers of the table.
+ */
+
 interface BaseItem {
     key:            string,
     name:           string,
@@ -63,17 +67,21 @@ export const columns: ColumnDef<Item>[] = [
     {
         accessorKey: "name",
         header: "Name",
-        size: 400,
+        size: 400
     },
     {
         accessorKey: "type",
-        header: "Type",
-        size: 150,
+        header: () => <div className="text-left">Type</div>,
+        cell: ({row}) => <div className="text-left">{row.getValue("type")}</div>,
+        size: 200,
+        minSize: 200
     },
     {
         accessorKey: "rarity",
-        header: "Rarity",
-        size: 150,
+        header: () => <div className="text-left">Rarity</div>,
+        cell: ({row}) => <div className="text-left">{row.getValue("rarity")}</div>,
+        size: 200,
+        minSize: 200
     },
     {
         id: "actions",

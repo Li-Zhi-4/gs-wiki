@@ -20,6 +20,10 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge";
 
+/**
+ * File for creating the data table component with pagination, filtering, and searching.
+ */
+
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[]
     data: TData[]
@@ -50,7 +54,7 @@ export function DataTable<TData, TValue>( {columns,data}: DataTableProps<TData, 
         <div>
 
             <div className="flex flex-col sm:flex-row justify-between">
-                <div className="flex flex-col py-2">
+                <div className="flex flex-col py-1">
 
                     {/* Type tags */}
                     <div className="flex gap-2 py-1">
@@ -88,7 +92,7 @@ export function DataTable<TData, TValue>( {columns,data}: DataTableProps<TData, 
                             </Badge>
                         ))}
                     </div>
-                    
+
                 </div>
                 
                 {/* Search Bar */}
