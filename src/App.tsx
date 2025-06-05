@@ -1,14 +1,10 @@
 import './App.css'
-
-import { HomePage } from './pages/HomePage'
-import { ItemIndexPage } from './pages/ItemIndexPage'
-import { ItemPage } from './pages/ItemPage'
+import { useRoutes } from 'react-router-dom'
+import { routes } from './routes/routes'
 
 function App() {
-
-  return (
-    <ItemPage />
-  )
+  const element = useRoutes(routes);
+  return element;
 }
 
 export default App

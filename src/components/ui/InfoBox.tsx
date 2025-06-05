@@ -114,7 +114,7 @@ const InfoBoxDataVariants = cva(
         variants: {
             variant: {
                 default: "flex-row justify-between",
-                long: "flex-col pt-2 gap-1 items-stretch",
+                long: "flex-col pt-2 gap-2 items-stretch",
             },
         },
         defaultVariants: {
@@ -147,14 +147,26 @@ function InfoBoxDataHeader({ className, ...props }: React.ComponentProps<"div">)
     )
 }
 
-function InfoBoxDataLabel({ className, ...props }: React.ComponentProps<"div">) {
+const InfoBoxDataLabelVariants = cva(
+    "flex w-full text-muted-foregraound text-sm",
+    {
+        variants: {
+            variant: {
+                default: "justify-center",
+                long: "justify-start",
+            },
+        },
+        defaultVariants: {
+            variant: "default",
+        },
+    }
+)
+
+function InfoBoxDataLabel({ className, variant, ...props }: React.ComponentProps<"div"> & VariantProps<typeof InfoBoxDataLabelVariants>) {
     return (
         <div
             data-slot="data-header"
-            className={cn(
-                "flex justify-center w-full text-muted-foreground text-sm",
-                className
-            )}
+            className={cn(InfoBoxDataLabelVariants({ variant, className }))}
             {...props}
         />
     )

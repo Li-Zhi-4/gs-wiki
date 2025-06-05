@@ -16,8 +16,8 @@ export function ItemIndexPage() {
         <div className="flex flex-col items-center px-4 sm:px-16">
             <NavigationBar />
 
-            <div className="flex flex-col max-w-3xl w-full">
-                <Breadcrumb className="pt-16 pb-2 w-full">
+            <div className="flex flex-col py-16 max-w-3xl w-full">
+                <Breadcrumb className="pb-2 w-full">
                     <BreadcrumbList>
                         <BreadcrumbItem>
                             <BreadcrumbLink asChild>
@@ -30,7 +30,7 @@ export function ItemIndexPage() {
                         </BreadcrumbItem>
                     </BreadcrumbList>
                 </Breadcrumb>
-                <span className="pb-2 w-full text-5xl">Items Index</span>
+                <h1 className="pb-2 w-full text-5xl">Items Index</h1>
                 <ItemsIndexTable />
             </div>
         </div>

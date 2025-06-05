@@ -8,6 +8,7 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { Link } from "react-router-dom"
 
 /**
  * File for defining the data in the table and the column headers of the table.
@@ -43,6 +44,7 @@ export interface Armour extends BaseItem {
     armour:         number,
     piece:          "helm" | "chest" | "gauntlets" | "trousers" | "boots",
     set:            string,
+    fullSetEffect:  string,
     runSpeed:       number,
     tier:           number
 }
@@ -67,7 +69,17 @@ export const columns: ColumnDef<Item>[] = [
     {
         accessorKey: "name",
         header: "Name",
-        size: 400
+        size: 400,
+        cell: ({ row }) => {
+            const name = row.getValue("name") as string;
+            const id = row.original.key;
+
+            return (
+                <Link to={`/items/${id}`} className="underline hover:text-neutral-900">
+                    {name}
+                </Link>
+            );
+        }
     },
     {
         accessorKey: "type",

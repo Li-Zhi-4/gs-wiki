@@ -40,7 +40,7 @@ export function NavigationBar() {
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                                <Link to='/docs'>Items</Link>
+                                <Link to='/items'>Items</Link>
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                     </NavigationMenuList>
