@@ -1,5 +1,4 @@
 import { NavigationBar } from "@/components/NavigationBar"
-import ItemsIndexTable from "@/components/ItemsIndexTable/page"
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -9,9 +8,10 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import { Link } from "react-router-dom"
+import { Input } from "@/components/ui/input"
 
-export function ItemIndexPage() {
 
+export function DamageReductionCalculatorPage() {
     return (
         <div className="flex flex-col items-center px-4 sm:px-16">
             <NavigationBar />
@@ -26,12 +26,18 @@ export function ItemIndexPage() {
                         </BreadcrumbItem>
                         <BreadcrumbSeparator />
                         <BreadcrumbItem>
-                            <BreadcrumbPage>Items</BreadcrumbPage>
+                            <BreadcrumbLink asChild>
+                                <Link to="/tools">Tools</Link>
+                            </BreadcrumbLink>
+                        </BreadcrumbItem>
+                        <BreadcrumbSeparator />
+                        <BreadcrumbItem>
+                            <BreadcrumbPage>Damage Reduction Calculator</BreadcrumbPage>
                         </BreadcrumbItem>
                     </BreadcrumbList>
                 </Breadcrumb>
-                <h1 className="pb-2 w-full text-5xl font-semibold">Items Index</h1>
-                <ItemsIndexTable />
+                <h1 className="pb-2 w-full text-5xl font-semibold">Damage Reduction Calculator</h1>
+                <Input></Input>
             </div>
         </div>
     )

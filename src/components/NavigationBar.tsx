@@ -35,7 +35,9 @@ export function NavigationBar() {
                         <NavigationMenuItem>
                             <NavigationMenuTrigger>Tools</NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <NavigationMenuLink>Coming soon!</NavigationMenuLink>
+                                <NavigationMenuLink>
+                                    <Link to="/tools/damage-reduction-calculator">Damage Reduction Calculator</Link>
+                                </NavigationMenuLink>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
                         <NavigationMenuItem>

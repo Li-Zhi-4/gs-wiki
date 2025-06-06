@@ -72,7 +72,7 @@ export function ItemPage() {
                 
                 {/* Content goes here */}
                 <div className="flex flex-col sm:flex-row gap-8 w-full h-full">
-                    <div className="flex flex-col gap-8 h-fit order-2 sm:order-1">
+                    <div className="flex flex-col gap-8 h-fit w-full order-2 sm:order-1">
                         <blockquote className="blockquote-style">{item?.description}</blockquote>
 
                         <div className="flex flex-col gap-2">
