@@ -15,7 +15,7 @@ import { WeaponInfoBox } from "@/components/WeaponInfoBox"
 import type { Weapon, Armour, Shield } from "@/components/ItemsIndexTable/columns"
 
 import shieldJson from '@/data/Shields.json'
-import armourJson from '@/data/BronzeSet.json'
+import armourJson from '@/data/Armour.json'
 
 
 const DATA = Object.fromEntries(

@@ -2,7 +2,7 @@ import { columns, type Item, type Shield, type Armour } from "./columns"
 import { DataTable } from "./data-table"
 
 import shieldJson from '@/data/Shields.json'
-import armourJson from '@/data/BronzeSet.json'
+import armourJson from '@/data/Armour.json'
 
 /**
  * File for rendering table with data.
