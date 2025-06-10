@@ -23,7 +23,7 @@ export function NavigationBar() {
 
             {/* Left side of navigation bar */}
             <div className="flex flex-row gap-4 items-center">
-                <img src={logo} alt="logo" className="h-8 w-8"/>
+                <Link to="/"><img src={logo} alt="logo" className="h-8 w-8"/></Link>
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuItem>
