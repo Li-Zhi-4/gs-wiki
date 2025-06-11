@@ -35,6 +35,8 @@ function damageReductionCalculator(armour: number) {
 }
 
 
+
+
 export function ArmourCard({ helm, chest, gauntlets, trousers, boots }: ArmourCardProps) {
     const armour = armourCalculator({helm, chest, gauntlets, trousers, boots});
 
@@ -63,3 +65,4 @@ export function DamageReductionCard({ helm, chest, gauntlets, trousers, boots }:
         </Card>
     )
 }
+

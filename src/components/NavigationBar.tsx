@@ -29,13 +29,13 @@ export function NavigationBar() {
                         <NavigationMenuItem>
                             <NavigationMenuTrigger>Guides</NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <NavigationMenuLink>Coming soon!</NavigationMenuLink>
+                                <NavigationMenuLink className="w-[400px]">Coming soon!</NavigationMenuLink>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
                             <NavigationMenuTrigger>Tools</NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <NavigationMenuLink>
+                                <NavigationMenuLink className="w-[400px]">
                                     <Link to="/tools/damage-reduction-calculator">Damage Reduction Calculator</Link>
                                 </NavigationMenuLink>
                             </NavigationMenuContent>

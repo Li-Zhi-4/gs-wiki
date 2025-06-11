@@ -56,7 +56,7 @@ export function DamageReductionCalculatorPage() {
                 <div className="flex flex-col gap-4">
                     <h2 className="header-2">Select Equipment</h2>
 
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-col md:flex-row gap-4">
                         <div className="flex flex-col gap-4">
                             <div className="flex flex-col gap-1">
                                 <h3 className="header-3">Helmet</h3>
@@ -85,7 +85,7 @@ export function DamageReductionCalculatorPage() {
                             </div>
                         </div>
 
-                        <div className="flex flex-row gap-4 h-fit">
+                        <div className="flex flex-col sm:flex-row gap-4 h-fit">
                             <ArmourCard helm={selectedHelm} chest={selectedChest} gauntlets={selectGloves} trousers={selectPants} boots={selectBoots}/>
                             <DamageReductionCard helm={selectedHelm} chest={selectedChest} gauntlets={selectGloves} trousers={selectPants} boots={selectBoots}/>
                         </div>

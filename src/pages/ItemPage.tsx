@@ -12,7 +12,7 @@ import { useParams } from "react-router-dom"
 import { ShieldInfoBox } from "@/components/ShieldInfoBox"
 import { ArmourInfoBox } from "@/components/ArmourInfoBox"
 import { WeaponInfoBox } from "@/components/WeaponInfoBox"
-import type { Weapon, Armour, Shield } from "@/components/ItemsIndexTable/columns"
+import type { Weapon, Armour, Shield } from "@/components/Tables/ItemsIndexTable/columns"
 
 import shieldJson from '@/data/Shields.json'
 import armourJson from '@/data/Armour.json'

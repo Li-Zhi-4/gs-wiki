@@ -9,7 +9,7 @@ import {
     InfoBoxDataHeader,
     InfoBoxDataLabel
 } from "@/components/ui/InfoBox"
-import type { Armour } from "./ItemsIndexTable/columns";
+import type { Armour } from "./Tables/ItemsIndexTable/columns";
 
 export function ArmourInfoBox({ item }: { item: Armour }) {
     return (

@@ -1,5 +1,5 @@
 import { NavigationBar } from "@/components/NavigationBar"
-import ItemsIndexTable from "@/components/Tables/ItemsIndexTable/page"
+import MonsterIndexTable from "@/components/Tables/MonsterIndexTable/page"
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/breadcrumb"
 import { Link } from "react-router-dom"
 
-export function ItemIndexPage() {
+export function MonsterIndexPage() {
 
     return (
         <div className="flex flex-col items-center px-4 sm:px-16">
@@ -26,12 +26,12 @@ export function ItemIndexPage() {
                         </BreadcrumbItem>
                         <BreadcrumbSeparator />
                         <BreadcrumbItem>
-                            <BreadcrumbPage>Items</BreadcrumbPage>
+                            <BreadcrumbPage>Monsters</BreadcrumbPage>
                         </BreadcrumbItem>
                     </BreadcrumbList>
                 </Breadcrumb>
-                <h1 className="pb-2 w-full text-5xl font-semibold">Items Index</h1>
-                <ItemsIndexTable />
+                <h1 className="pb-2 w-full text-5xl font-semibold">Monster Index</h1>
+                <MonsterIndexTable />
             </div>
         </div>
     )

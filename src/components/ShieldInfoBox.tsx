@@ -9,7 +9,7 @@ import {
     InfoBoxDataHeader,
     InfoBoxDataLabel
 } from "@/components/ui/InfoBox"
-import type { Shield } from "./ItemsIndexTable/columns";
+import type { Shield } from "./Tables/ItemsIndexTable/columns";
 
 export function ShieldInfoBox({ item }: { item: Shield }) {
     return (

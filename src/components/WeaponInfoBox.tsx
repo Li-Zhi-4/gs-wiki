@@ -9,7 +9,7 @@ import {
     InfoBoxDataHeader,
     InfoBoxDataLabel
 } from "@/components/ui/InfoBox"
-import type { Weapon } from "./ItemsIndexTable/columns";
+import type { Weapon } from "./Tables/ItemsIndexTable/columns";
 
 export function WeaponInfoBox({ item }: { item: Weapon }) {
     return (

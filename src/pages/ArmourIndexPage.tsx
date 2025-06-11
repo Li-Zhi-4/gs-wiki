@@ -1,5 +1,5 @@
 import { NavigationBar } from "@/components/NavigationBar"
-import ItemsIndexTable from "@/components/Tables/ItemsIndexTable/page"
+import ItemsIndexTable from "@/components/Tables/ItemsIndexTable/page" // change this table to the armour
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/breadcrumb"
 import { Link } from "react-router-dom"
 
-export function ItemIndexPage() {
+export function ArmourIndexPage() {
 
     return (
         <div className="flex flex-col items-center px-4 sm:px-16">
@@ -30,7 +30,7 @@ export function ItemIndexPage() {
                         </BreadcrumbItem>
                     </BreadcrumbList>
                 </Breadcrumb>
-                <h1 className="pb-2 w-full text-5xl font-semibold">Items Index</h1>
+                <h1 className="pb-2 w-full text-5xl font-semibold">Armour Index</h1>
                 <ItemsIndexTable />
             </div>
         </div>

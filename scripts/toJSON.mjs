@@ -3,7 +3,7 @@ import path from 'path';
 import XLSX from 'xlsx';
 
 // 1. Read excel sheet
-const workbook  = XLSX.readFile('src/data/Armour.xlsx');  // INPUT FILD SOURCE HERE
+const workbook  = XLSX.readFile('src/data/Monsters.xlsx');  // INPUT FILD SOURCE HERE
 const sheetName = workbook.SheetNames[0];
 const worksheet = workbook.Sheets[sheetName];
 // Sets empty cells as null
@@ -12,6 +12,7 @@ const rows      = XLSX.utils.sheet_to_json(worksheet, { defval: null });
 // 2. Transforms data
 const formatted = rows.map(item => {
 
+    // crafting
     const recipeValues = [];
     if (item.crafting != null) recipeValues.push(item.crafting);
     for (const key of Object.keys(item)) {
@@ -19,7 +20,6 @@ const formatted = rows.map(item => {
             recipeValues.push(item[key]);
         }
     }
-
     let finalRecipe;
     if (recipeValues.length === 1 && recipeValues[0] === 'Not craftable') {
         finalRecipe = { 'Not craftable': '' };
@@ -33,6 +33,7 @@ const formatted = rows.map(item => {
         finalRecipe = recipe;
     }
 
+    // obtained
     let obtainedList = [];
     if (item.obtained != null) {
         obtainedList = item.obtained
@@ -48,6 +49,7 @@ const formatted = rows.map(item => {
         if (key.startsWith('__EMPTY')) delete output[key];
     }
 
+    // toggle these to include in final json
     output.crafting = finalRecipe;
     output.obtained = obtainedList;
 
@@ -55,7 +57,7 @@ const formatted = rows.map(item => {
 });
 
 // 3. Write data to file
-const outPath    = path.resolve('src/data', 'Armour.json');  // INPUT FILE OUTPUT NAME HERE
+const outPath    = path.resolve('src/data', 'Monsters.json');  // INPUT FILE OUTPUT NAME HERE
 const jsonString = JSON.stringify(formatted, null, 2);
 fs.writeFileSync(outPath, jsonString, 'utf8');
 
