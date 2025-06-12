@@ -11,7 +11,8 @@ const ITEMS = {
 }
 
 const TOOLS = {
-    'Damage Reduction Calculator': '/tools/damage-reduction-calculator'
+    'Damage Reduction Calculator': '/tools/damage-reduction-calculator',
+    'Base Blueprint Designer': '/tools/base-blueprint'
 }
 
 const PLAGUE_LANDS = {

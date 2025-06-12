@@ -5,6 +5,7 @@ import { ArmourIndexPage } from "@/pages/ArmourIndexPage";
 import { ItemPage } from "@/pages/ItemPage";
 
 import { DamageReductionCalculatorPage } from "@/pages/DamageReductionCalculatorPage";
+import { BaseBlueprintPage } from "@/pages/BaseBlueprintPage";
 
 import { MonsterIndexPage } from "@/pages/MonsterIndexPage";
 
@@ -19,6 +20,7 @@ export const routes = [
 
     { path: "/tools", element: <HomePage />}, // change this later
     { path: "/tools/damage-reduction-calculator", element: <DamageReductionCalculatorPage />},
+    { path: "/tools/base-blueprint", element: <BaseBlueprintPage />},
 
     { path: "/monsters", element: <MonsterIndexPage />},
 ]
